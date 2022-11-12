@@ -26,12 +26,12 @@
                         <i class="fas fa-map"></i>
                         Area of Hong Kong
                     </a></li>
-                    <li class="tm-nav-item  "><a href="Popluation.html" class="tm-nav-link">
-                        <i class="fas fa-users"></i>
+                    <li class="tm-nav-item"><a href="Dashbroad.html" class="tm-nav-link">
+                        <i class="fas fa-desktop"></i>
                         Dashbroad
                     </a></li>
                     <li class="tm-nav-item active"><a href="Prediction.html" class="tm-nav-link">
-                        <i class="fas fa-university"></i>
+                        <i class="fas fa-cogs"></i>
                         Prediction
                     </a></li>
                 </ul>
@@ -56,62 +56,65 @@
     </header>
     <div class="container-fluid">
         <main class="tm-main">
-            <!-- Search form -->
-            <div class="row tm-row">
-                <div class="col-12">
-                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
-                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
-                        <button class="tm-search-button" type="submit">
-                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
-                        </button>                                
-                    </form>
-                </div>                
-            </div>
-            
-            <div class="dropdown">
-                <div class="aaa">Distribute :                
-                    <select>
-                    <option value="Central and Western District">Central and Western District</option>
-                    <option value="Wan Chai">Wan Chai</option>
-                    <option value="Eastern District">Eastern District</option>
-                    <option value="South area">South area</option>
-                    <option value="Yau Tsim Mong">Yau Tsim Mong</option>
-                    <option value="Sham Shui Po">Sham Shui Po</option>
-                    <option value="Kowloon City">Kowloon City</option>
-                    <option value="Wong Tai Sin">Wong Tai Sin</option>
-                    <option value="Kwun Tong">Kwun Tong</option>
-                    <option value="Tsuen Wan">Tsuen Wan</option>
-                    <option value="Tuen Mun">Tuen Mun</option>
-                    <option value="Yuen Long">Yuen Long</option>
-                    <option value="North District">North District</option>
-                    <option value="Tai Po">Tai Po</option>
-                    <option value="Shatin">Shatin</option>
-                    <option value="Outlying islands">Outlying islands</option>
-                    </select>
-            </div>
-            <div class="aaa">                
-                <select>
-                    <option value="Central and Western District">Hotel</option>
-                    <option value="Wan Chai">Restaurant</option>
-                    <option value="Eastern District">Nursing Home</option>
-                    <option value="South area">Football Field</option>
-                </select>
-            </div class="aaa">
 
-                <select>
-                    <option value="Central and Western District">Central and Western District</option>
-                    <option value="Wan Chai">Wan Chai</option>
-                    <option value="Eastern District">Eastern District</option>
-                    <option value="South area">South area</option>
-                    <option value="Yau Tsim Mong">Yau Tsim Mong</option>
-                </select>
+                <div class="dropdown">
+                    <div class="aaa">Distribute :                
+                        <select>
+                        <option value="Central and Western District">Central and Western District</option>
+                        <option value="Wan Chai">Wan Chai</option>
+                        <option value="Eastern District">Eastern District</option>
+                        <option value="South area">South area</option>
+                        <option value="Yau Tsim Mong">Yau Tsim Mong</option>
+                        <option value="Sham Shui Po">Sham Shui Po</option>
+                        <option value="Kowloon City">Kowloon City</option>
+                        <option value="Wong Tai Sin">Wong Tai Sin</option>
+                        <option value="Kwun Tong">Kwun Tong</option>
+                        <option value="Tsuen Wan">Tsuen Wan</option>
+                        <option value="Tuen Mun">Tuen Mun</option>
+                        <option value="Yuen Long">Yuen Long</option>
+                        <option value="North District">North District</option>
+                        <option value="Tai Po">Tai Po</option>
+                        <option value="Shatin">Shatin</option>
+                        <option value="Outlying islands">Outlying islands</option>
+                        </select>
+
+                    <div class="aaa">DataSet :
+                        <select id="dataset_select">
+                            <option value="Hotel">Hotel</option>
+                            <option value="Restaurant">Restaurant</option>
+                            <option value="Nursing Home">Nursing Home</option>
+                            <option value="Football Field">Football Field</option>
+                        </select>
+                    </div class="aaa">
+                    <div>
+                        <select >
+                            <option value="Central and Western District">Central and Western District</option>
+                            <option value="Wan Chai">Wan Chai</option>
+                            <option value="Eastern District">Eastern District</option>
+                            <option value="South area">South area</option>
+                            <option value="Yau Tsim Mong">Yau Tsim Mong</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="checkbox">
+                    aaa<input type="checkbox"><br/>
+                    bbb<input type="checkbox"><br/>                
+                    ccc<input type="checkbox"><br/>
+                    dddd<input type="checkbox"><br/> 
+                </div><br/>
+
+                <a href="Facilities.html" onload="Delay()"><div id = "Hotel" class ="botton">Submit</div></a>
+                <a href="index.html" onload="Delay()"><div id = "Restaurant" class ="botton">昌昌昌昌昌</div></a>
+                <a href="Facilities.html" onload="Delay()"><div class ="botton">Submit</div></a>
+                <a href="Login.html" onload="Delay()"><div class ="botton">Submit</div></a>
             </div>
-            <a href="Facilities.html"><button id="botton">Submit</button></a>
+
 
                   
         </main>
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/templatemo-script.js"></script>
+    
 </body>
 </html>

@@ -62,3 +62,20 @@ $("body").on("load", function(){
 
 });
 
+$(document).ready(function(){
+
+  //hides dropdown content
+  $(".botton").hide();
+  
+  //unhides first option content
+  $("#Hotel").show();
+  
+  //listen to dropdown for change
+  $("#dataset_select").change(function(){
+    //rehide content on change
+    $('.botton').hide();
+    //unhides current item
+    $('#'+$(this).val()).show();
+  });
+  
+});

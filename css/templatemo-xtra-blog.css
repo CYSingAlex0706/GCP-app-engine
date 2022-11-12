@@ -458,6 +458,11 @@ body, html {
     text-align: center;
 }
 
+#structure{
+    display: flex;
+    flex-direction: row;
+}
+
 #prediction1 {
     margin-bottom: 20px;
     padding: 50px 50px 50px 50px;
@@ -482,14 +487,21 @@ body, html {
     align-items: center;
 }
 
+#dataset_select
 
 .dropdown{
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
+    flex-direction: col;
 }
 
-#botton{
+.aaa{
+    border-style: solid;
+}
+
+.botton{
     margin-top: 200px;
+    margin-left: 400px;
     text-align: center;
     cursor: pointer;
     outline: none;
@@ -519,6 +531,9 @@ body, html {
     align-items: center;
 }
 
+#checkbox{
+    float: left;
+}
 
 .loader-wrapper {
     float:left;
