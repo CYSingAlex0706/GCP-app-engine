@@ -458,18 +458,13 @@ body, html {
     text-align: center;
 }
 
-#structure{
-    display: flex;
-    flex-direction: row;
-}
-
 #prediction1 {
     margin-bottom: 20px;
     padding: 50px 50px 50px 50px;
     border-radius:10px;
     background-color: whitesmoke;
     box-shadow: 10px 5px 5px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -481,27 +476,35 @@ body, html {
     border-radius:10px;
     background-color: whitesmoke;
     box-shadow: 10px 5px 5px;
-    display: flex;
-    flex-direction: row;
+    display: none;
+    flex-direction: col;
     justify-content: space-between;
     align-items: center;
 }
 
-#dataset_select
+#cccc{
+    align-items: left;
+    text-align: left;
+}
 
 .dropdown{
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
-    flex-direction: col;
+}
+#sss{
+    text-align: left;
+}
+.ppp{
+    padding-bottom: 100px;
 }
 
-.aaa{
-    border-style: solid;
+#xxx{
+    display: flex;
+    justify-content: space-between;
 }
 
-.botton{
+#botton{
     margin-top: 200px;
-    margin-left: 400px;
     text-align: center;
     cursor: pointer;
     outline: none;
@@ -526,17 +529,21 @@ body, html {
     border-radius:10px;
     background-color: whitesmoke;
     box-shadow: 10px 5px 5px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
 
-#checkbox{
-    float: left;
+.checkbox{
+    display: flex;
+    flex-direction: col;
+}
+
+.aaaaa {
+    padding-right: 40px;
 }
 
 .loader-wrapper {
-    float:left;
     width: 100%;
     height: 100%;
     position:static;
@@ -544,7 +551,7 @@ body, html {
     left: 0;
     background-color: #242f3f;
     padding: 400px 400px 400px 400px;
-    display:none;
+    display: none;
     justify-content: center;
     align-items: center;
 }

@@ -23,7 +23,7 @@ $(window).on("load",function(){
 
 setTimeout(function(){
   $(".loader-wrapper").fadeOut('slow');
-}, 5000);
+}, 4000);
 
 setTimeout(function(){
   $("#prediction1").fadeOut('slow');
@@ -31,7 +31,7 @@ setTimeout(function(){
 
 setTimeout(function(){
   $("#prediction1").fadeIn('slow');
-}, 6500);
+}, 5500);
 
 setTimeout(function(){
   $("#prediction2").fadeOut('slow');
@@ -39,7 +39,7 @@ setTimeout(function(){
 
 setTimeout(function(){
   $("#prediction2").fadeIn('slow');
-}, 7000);
+}, 6000);
 
 setTimeout(function(){
   $("#prediction3").fadeOut('slow');
@@ -47,7 +47,7 @@ setTimeout(function(){
 
 setTimeout(function(){
   $("#prediction3").fadeIn('slow');
-}, 8000);
+}, 7000);
 
 setTimeout(() => {
   const genNumber = () => {
@@ -62,6 +62,7 @@ $("body").on("load", function(){
 
 });
 
+//prediction fropdown hide and show the option//
 $(document).ready(function(){
 
   //hides dropdown content
@@ -79,3 +80,29 @@ $(document).ready(function(){
   });
   
 });
+
+//prediction fropdown hide and show the option//
+$(document).ready(function(){
+
+  //hides dropdown content
+  
+  //unhides first option content
+  $(".ppp").show();
+  
+  //listen to dropdown for change
+  $("#fff").change(function(){
+    //rehide content on change
+    $('.ppp').hide();
+    //unhides current item
+    $('.gmap_canvas').fadeIn('slow');
+  });
+
+  $("#fff").change(function(){
+    //rehide content on change
+    $('.ppp').hide();
+    //unhides current item
+    $('.gmap_canvas').fadeIn('slow');
+  });
+  
+});
+
